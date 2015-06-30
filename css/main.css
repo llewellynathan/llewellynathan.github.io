@@ -5,6 +5,11 @@ font-family: 'Titillium Web', sans-serif;*/
 	box-sizing: border-box;
 }
 
+
+/*Pull ALL font sizes directly from the photoshop file.
+Do not adjust them to make proportions look right!!!*/
+
+
 body {
 	font-size: 14px;
 	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;	
@@ -50,9 +55,10 @@ nav.navigation ul li {
 .navigation a {
 	text-decoration: none;
 	list-style: none;
+	font-size: 16px;
 	color: #9a9a9a;
 	margin-left: 30px;
-	padding-bottom: 21px;
+	padding-bottom: 18px;
 }
 
 
@@ -82,7 +88,7 @@ section.hero p {
 	margin: 0 auto;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 22px;
 	text-align: center;
 	color: #c5c4c5;
 }
@@ -113,6 +119,7 @@ section.hero p {
 	background: #fff;
 	margin: 30px auto;
 	padding: 10px 20px 0px;
+	font-family: 'Teko', sans-serif;
 	text-align: center;
 	text-decoration: none;
 	color: #000;
@@ -140,7 +147,7 @@ section.hero p {
 
 .work p {
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	max-width: 70%;
 	text-align: center;
 	margin: 0 auto;
@@ -169,6 +176,7 @@ section.hero p {
 
 .show_more a {
 	text-decoration: none;
+	font-size: 20px;
 	color: #f63c3c;
 	font-size: 16px;
 	border-bottom: 2px solid #f63c3c;
@@ -185,13 +193,13 @@ section.hero p {
 .cta h2 {
 	font-family: 'Teko', sans-serif;
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 40px;
 	padding-top: 30px;
 	letter-spacing: 2px;
 }
 
 .cta p {
-	font-size: 10px;
+	font-size: 16px;
 	margin-top: 5px;
 }
 
@@ -202,7 +210,9 @@ section.hero p {
 	display: block;
 	background: #fff;
 	margin: 15px auto;
-	padding: 10px 20px 0px;
+	padding: 8px 20px 0px;
+	font-family: 'Teko', sans-serif;
+	font-size: 20px;
 	text-align: center;
 	text-decoration: none;
 	color: #000;
@@ -213,13 +223,13 @@ section.hero p {
 	background: #fafafa;
 	color: #30282a;
 	font-family: 'Teko', sans-serif;
-	font-size: 24px;
+	font-size: 40px;
 	padding-top: 30px;
 }
 
 .contact p {
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 10px;
+	font-size: 16px;
 	font-weight: 300;
 	color: #c5c4c5;
 	margin: 5px auto;
@@ -242,6 +252,7 @@ section.hero p {
 .contact a {
 	color: #fff;
 	text-decoration: none;
+	font-size: 30px;
 }
 
 .copyright {
@@ -252,7 +263,7 @@ section.hero p {
 	color: #747474;
 	padding-top: 15px;
 	padding-bottom: 25px;
-	font-size: 8px;
+	font-size: 13px;
 }
 
 
