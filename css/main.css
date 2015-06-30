@@ -21,16 +21,16 @@ body {
 
 header {
 	background: url(../img/aurora.jpg) center center fixed no-repeat;
-	height: 720px;
+	height: 680px;
 }
 
 .top_bar {
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
 	height: 71px;
 }
+
 .container{
-	max-width: 60%;
-	/*height: 70px;*/
+	max-width: 70%;
 	margin: 0 auto;
 }
 
@@ -55,8 +55,9 @@ nav.navigation ul li {
 	padding-bottom: 21px;
 }
 
-.navigation a:hover {
-	border-bottom: 2px solid #fff;
+
+.active a {
+	border-bottom: 2px solid #fff;	
 }
 
 section.hero {
@@ -85,6 +86,25 @@ section.hero p {
 	text-align: center;
 	color: #c5c4c5;
 }
+
+.hero nav {
+    margin:90px auto 0;
+    padding:0;
+    text-align:center;
+}
+
+.hero li {
+    display:inline-block;
+    width: 40px;
+    height: 4px;
+    margin-left: 3px;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.hero li.active {
+	background-color: rgba(255, 255, 255, 1);
+}
+
 
 .explore {
 	height: 35px;
