@@ -47,11 +47,12 @@ p {
 	color: #ECECEC;
 	font-size: 1.25em;
 	font-weight: 300;
+	max-width: 500px;
 }
 
 a {
 	text-decoration: none;
-	color: #2fbf72;
+	color: #465775;
 }
 
 a:hover {
