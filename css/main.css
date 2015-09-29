@@ -39,15 +39,20 @@ h3 {
 	color: #ECECEC;
 	font-size: 1.5em;
 	letter-spacing: 2px;
+	margin-bottom: 10px; 
 }
 p {
-	margin: 10px auto;
+	margin: 0 auto;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	color: #ECECEC;
 	font-size: 1.25em;
 	font-weight: 300;
 	max-width: 500px;
+}
+
+.prototypes {
+	line-height: 25px;
 }
 
 a {
@@ -102,7 +107,7 @@ a:hover {
    
 .email {
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 	width: 500px;
 }
 
