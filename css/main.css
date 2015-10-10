@@ -746,7 +746,7 @@ section.intercept-prototest {
 *********************************/
 
 @media (max-width: 450px) {
-	.navbar-brand {
+	.navbar-default .navbar-brand {
 		font-size: 2em;
 	}
 }
