@@ -119,8 +119,6 @@ header .intro-text .skills {
 
 .btn-outline {
 	border: solid 2px #2FBF71;
-	padding-right: 50px;
-	padding-left: 50px;
 }
 
 .btn-outline:hover, .btn-outline a:hover {
