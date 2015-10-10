@@ -741,9 +741,15 @@ section.intercept-prototest {
 	max-width: 200px;
 }
 
+/********************************
+		  Media Queries
+*********************************/
 
-
-
+@media (max-width: 450px) {
+	.navbar-brand {
+		font-size: 2em;
+	}
+}
 
 
 
