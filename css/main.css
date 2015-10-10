@@ -234,6 +234,10 @@ header .intro-text .skills {
 	background-color: #313641;
 }
 
+.work .more-coming .btn-sm:hover {
+	color: #313641;
+}
+
 .work .intercept img,
 .work .more-coming img {
 	display: block;
