@@ -751,6 +751,12 @@ section.intercept-prototest {
 	.contact a {
 		width: 200px;
 	}
+
+	.pulseband-intro h1,
+	.intercept-intro h1,
+	.ideal-student-intro h1 {
+		font-size: 3em;
+	}
 }
 
 
