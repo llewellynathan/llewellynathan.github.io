@@ -1,133 +1,745 @@
-* {
-	box-sizing: border-box;
+body {
+	font-size: 18px;
 }
 
-body {
+.navbar-fixed-top {
+	padding: 20px 0;
+}
+.navbar-default {
+	background-color: #171513;
+	border-bottom: 2px solid #FF5335; 
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Rokkitt', sans-serif;
+	font-size: 2.5em;
+	color: #fff;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+	color: #FF5335;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #FF5335;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #FF5335;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #fff;
+	background-color: #FF5335;
+}
+
+header {
+	display: block;
+	background: #000;
 	background: url(../img/bg.jpg) center center no-repeat fixed;
 	background-size: cover;
-	font-size: 16px;
-}
-
-.logo {
-	display: block;
-	margin: 70px auto 0 auto;
-	max-width: 20%;
-	max-height: auto;
-}
-
-h1 {
-	margin-top: 25px;
-	margin-bottom: 0;
 	text-align: center;
-	font-family: 'Rokkitt', serif;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+header .container {
+	padding-top: 150px;
+	padding-bottom: 45px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+header img {
+	margin: 0 auto 20px;
+}
+
+.down-arrow{
+	margin: 50px auto 0;
+}
+
+header .intro-text .for-hire {
+	display: block;
+	font-size: 4em;
+	font-family: 'Rokkitt', sans-serif;
+	color: #2FBF71;
+	line-height: 48px;
+	margin-top: 20px;
+}
+
+header .intro-text .nathan, header .intro-text .skills{
+	display: block;
+	font-size: 3em;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+header .intro-text .skills {
+	font-size: 1.5em;
+}
+
+.self-pic {
+	display: inline;
+}
+
+.about {
+	padding: 150px 0 100px 0;
+}
+
+.about h2 {
+	text-align: center;
+	font-family: 'Rokkitt', sans-serif;
+	font-size: 3.5em;
+	color: #171513;
+}
+
+.about p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #171513;
+}
+
+.contact {
+	text-align: center;
+}
+
+.contact a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	color: #2FBF71;
+}
+
+.btn-outline {
+	border: solid 2px #2FBF71;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.btn-outline:hover, .btn-outline a:hover {
+	background: #2FBF71;
+	color: #fff;
+}
+
+.my-process {
+	background-color: #898989;
+	padding: 100px 0 100px 0;
+}
+
+.my-process h2,
+.work h2 {
+	font-size: 3.5em;
+	font-family: 'Rokkitt', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.work h3 {
+	color: #fff;
+}
+
+.my-process p{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	margin-top: -20px;
+	margin-bottom: 25px;
+}
+.my-process img {
+	margin-top: 25px;
+}
+
+.my-process .learn-more .btn-sm {
+	margin-top: 75px;
+}
+
+.my-process .learn-more .btn-sm:hover {
+	color: #898989;
+}
+.work-head {
+	background-color: #313641;
+	padding-top: 50px;
+}
+
+.work .pulseband,
+.work .intercept,
+.work .ideal,
+.work .more-coming {
+	min-height: 525px;
+	padding: 50px 0;
+}
+
+.work .pulseband h3,
+.work .ideal h3,
+.work .intercept h3,
+.work .more-coming h3 {
+	text-align: center;
+	font-size: 1.75em;
+}
+
+.work p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #fff;
+	margin: 0 20px 10px 20px;
+}
+
+.learn-more .btn-sm {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	border: solid 2px #fff;
+	max-width: 300px;
+	margin: 25px auto 0 auto;
+	text-align: center;
+}
+
+.learn-more .btn-sm:hover {
+	background-color: #fff;
+	text-decoration: none;
+}
+
+.pulseband {
+	background-color: #01295F;
+}
+.pulseband .learn-more .btn-sm:hover {
+	color: #01295F;
+}
+
+.work .ideal {
+	background-color: #2CA58D;
+}
+.ideal .learn-more .btn-sm:hover {
+	color: #2CA58D;
+}
+
+.work .intercept {
+	background-color: #304F6B;
+}
+.intercept .learn-more .btn-sm:hover {
+	color: #304F6B;
+}
+
+.work .more-coming {
+	background-color: #313641;
+}
+
+.work .intercept img,
+.work .more-coming img {
+	display: block;
+	margin: 0 auto;
+}
+.intercept .learn-more {
+	display: block;
+	margin: 0 auto;
+}
+
+.work .intercept img,
+.work .more-coming img {
+	vertical-align: middle;
+}
+
+section.contact {
+	margin-bottom: 100px;
+}
+.contact h2 {
 	color: #FF5335;
+	text-align: center;
+	margin-top: 50px;
+}	
+
+.contact p {
+	text-align: left;
+	margin: 0 20px 25px 10px;
+}
+
+.contact a {
+	min-width: 300px;
+}
+
+.footer {
+	background-color: #171513;
+}
+
+.footer p {
+	margin-top: 10px;
+	font-size: .75em;
+}
+
+/********************************
+		My UX Process
+*********************************/
+
+.process-header {
+	background: #fff;
+}
+
+.process-header .container {
+	padding-top: 100px;
+}
+
+.process-header h1 {
+	font-size: 4em;
+	color: #302B27;
+}
+
+.process-header p {
+	margin: 0 auto;
+	max-width: 700px;
+	color: #302B27;
+	text-align: left;
+}
+
+.process-header img {
+	margin-top: 25px;
+}
+
+.process-learn img,
+.process-synthesize img,
+.process-ideate img,
+.process-prototype img,
+.process-test img,
+.process-iterate img,
+.process-prototest img {
+	margin-top: 50px;
+}
+
+.process-learn h2,
+.process-synthesize h2,
+.process-ideate h2,
+.process-prototype h2,
+.process-test h2,
+.process-iterate h2,
+.process-prototest h2 {
+	text-align: center;
+	color: #fff;
+}
+
+.process-learn h3,
+.process-synthesize h3,
+.process-ideate h3,
+.process-prototype h3,
+.process-test h3,
+.process-iterate h3 {
+	color: #302B27;
+}
+
+.process-learn .learn-text,
+.process-synthesize .synthesize-text,
+.process-ideate .ideate-text,
+.process-prototype .prototype-text,
+.process-test .test-text,
+.process-iterate .iterate-text {
+	background-color: #fff;
+	padding: 25px 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+.process-learn .learn-text,
+.process-synthesize .synthesize-text,
+.process-ideate .ideate-text,
+.process-prototype .prototype-text,
+.process-test .test-text,
+.process-iterate .iterate-text {
+	background-color: #fff;
+	padding: 25px 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+}
+
+.process-synthesize .tools,
+.process-ideate .tools,
+.process-prototype .tools,
+.process-test .tools {
+	margin: 25px 20px 0px 20px;
+}
+
+.process-learn .container-fluid,
+.process-prototype .container-fluid {
+	background-color: #FF9C35;
+}
+
+.process-synthesize .container-fluid,
+.process-test .container-fluid {
+	background-color: #5C4675;
+}
+
+.process-ideate .container-fluid,
+.process-iterate .container-fluid {
+	background-color: #31ECA3;
+}
+
+/********************************
+			Pulseband
+*********************************/
+h1,
+h2,
+h3,
+h4 {
+	color: #171513;
+}
+
+.pulseband-header {
+	background: #01295F;
+}
+
+.pulseband-header img{
+	max-width: 175px;
+}
+
+.learn img,
+.synthesize img,
+.ideate img,
+.prototype img,
+.test img,
+.iterate img,
+.prototest img {
+	margin-top: 50px;
+}
+
+.learn h2,
+.synthesize h2,
+.ideate h2,
+.prototest h2 {
+	text-align: center;
+	color: #fff;
+}
+
+.pulseband-intro h1 {
+	text-align: center;
 	font-size: 4em;
 }
 
-h2 {
-	margin: 0px auto;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: #ECECEC;
-	font-size: 2em;
-	letter-spacing: 2px;
-}
-h3 {
-	margin: 0px auto;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: #ECECEC;
-	font-size: 1.5em;
-	letter-spacing: 2px;
-	margin-bottom: 10px; 
-}
-p {
-	margin: 0 auto;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
-	color: #ECECEC;
-	font-size: 1.25em;
-	font-weight: 300;
-	max-width: 500px;
+.pulseband-intro {
+	margin-bottom: 100px;
 }
 
-.prototypes {
-	line-height: 25px;
+.pulseband-research-text,
+.pulseband-synthesis-text,
+.pulseband-ideate-text,
+.pulseband-prototest-text {
+	margin-top: 25px;
 }
 
-a {
-	text-decoration: none;
-	color: #465775;
+.learn .container-fluid,
+.synthesize .container-fluid,
+.ideate .container-fluid,
+.prototest .container-fluid {
+	background-color: #01295F;
+	padding-bottom: 25px;
 }
 
-a:hover {
-	color: #31ECA3;
-} 
-
-.button {
-   margin-top: 30px;
-   border-top: 1px solid #2fbf72;
-   background: #2fbf72;
-   padding: 14.5px 29px;
-   -webkit-border-radius: 32px;
-   -moz-border-radius: 32px;
-   border-radius: 32px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: white;
-   font-size: 1.25em;
-   font-family: 'Roboto', sans-serif;
-   text-decoration: none;
-   vertical-align: middle;
-   max-width: 25%;
-   }
-.button:hover {
-   border-top-color: #31eca4;
-   background: #31eca4;
-   color: #ffffff;
-   }
-
-.phone {
-	display: block;
-	margin: 10px auto 0 auto;
-	width: 500px;
+section.learn,
+section.synthesize,
+section.ideate {
+	margin-bottom: 100px;
 }
 
-.phone i {
+.pulseband-synthesis-text {
+	margin-top: 25px;
+}
+
+.prototest .btn {
+	width: 200px;
+	background-color: #5C4675;
 	color: #fff;
 }
 
-.phone p {
-	width: 450px;
-	display: inline-block;
-	font-size: 24px;
-}
-   
-.email {
-	display: block;
-	margin: 10px auto;
-	width: 500px;
+.prototest .btn:hover {
+	background-color: #fff;
+	color: #5C4675;
+	border: solid 2px #5C4675;
 }
 
-.email i {
+/*.prototest .mid-fi {
+	display: block;
+	margin: 15px auto;
+}*/
+
+.prototest .contact {
+	display: block;
+	margin: 15px auto;
+	background-color: #2FBF71;
+}
+
+.prototest .contact:hover {
+	background-color: #fff;
+	color: #2FBF71;
+	border: solid 2px #2FBF71;
+}
+
+.prototest .prev {
+	visibility: hidden;
+}
+
+.prototest .next,
+.prototest .prev {
+	width: 150px;
+}
+
+section.prototest {
+	margin-bottom: 50px
+}
+
+/********************************
+		   Ideal Student
+*********************************/
+h1,
+h2,
+h3,
+h4 {
+	color: #171513;
+}
+
+.ideal-student-header {
+	background: #2CA58D;
+}
+
+.ideal-student-header img{
+	max-width: 175px;
+}
+
+.ideal-student-learn img,
+.ideal-student-synthesize img,
+.ideal-student-ideate img,
+.ideal-student-prototest img {
+	margin-top: 50px;
+}
+
+.ideal-student-learn h2,
+.ideal-student-synthesize h2,
+.ideal-student-ideate h2,
+.ideal-student-prototest h2 {
+	text-align: center;
 	color: #fff;
 }
 
-.email p {
-	width: 450px;
-	display: inline-block;
-	font-size: 24px;
+.ideal-student-intro h1 {
+	text-align: center;
+	font-size: 4em;
 }
 
+.ideal-student-intro	 {
+	margin-bottom: 100px;
+}
 
+.pulseband-research-text,
+.pulseband-synthesis-text,
+.pulseband-ideate-text,
+.pulseband-prototest-text {
+	margin-top: 25px;
+}
 
+.ideal-student-learn .container-fluid,
+.ideal-student-synthesize .container-fluid,
+.ideal-student-ideate .container-fluid,
+.ideal-student-prototest .container-fluid {
+	background-color: #2CA58D;
+	padding-bottom: 25px;
+}
 
+section.ideal-student-learn,
+section.ideal-student-synthesize,
+section.ideal-student-ideate {
+	margin-bottom: 100px;
+}
 
+.ideal-student-ideate .btn-lg {
+	display: block;
+	margin: 15px auto;
+	width: 300px;
+	background-color: #5C4675;
+	color: #fff;
+}
 
+.ideal-student-ideate .btn-lg:hover {
+	background-color: #fff;
+	color: #5C4675;
+	border: solid 2px #5C4675;
+}
 
+.ideal-student-prototest .btn {
+	width: 200px;
+	background-color: #5C4675;
+	color: #fff;
+}
 
+.ideal-student-prototest .btn:hover {
+	background-color: #fff;
+	color: #5C4675;
+	border: solid 2px #5C4675;
+}
+
+.prototest .mid-fi {
+	display: block;
+	margin: 15px auto;
+}
+
+.ideal-student-prototest .contact {
+	display: block;
+	margin: 15px auto;
+	background-color: #2FBF71;
+}
+
+.ideal-student-prototest .contact:hover {
+	background-color: #fff;
+	color: #2FBF71;
+	border: solid 2px #2FBF71;
+}
+
+.ideal-student-prototest .prev {
+	visibility: visible;
+}
+
+.ideal-student-prototest .next,
+.ideal-student-prototest .prev {
+	width: 150px;
+}
+
+section.ideal-student-prototest {
+	margin-bottom: 50px
+}
+
+.img-is-new-task {
+	max-width: 200px;
+}
+
+/********************************
+		   Intercept
+*********************************/
+h1,
+h2,
+h3,
+h4 {
+	color: #171513;
+}
+
+.intercept-header {
+	background: #304F6B;
+}
+
+/*.intercept-header img{
+	max-width: 550px;
+}*/
+
+.intercept-header h3 {
+	color: #fff;
+}
+
+.intercept-learn img,
+.intercept-synthesize img,
+.intercept-ideate img,
+.intercept-prototest img {
+	margin-top: 50px;
+}
+
+.intercept-learn h2,
+.intercept-synthesize h2,
+.intercept-ideate h2,
+.intercept-prototest h2 {
+	text-align: center;
+	color: #fff;
+}
+
+.intercept-intro h1 {
+	text-align: center;
+	font-size: 4em;
+}
+
+.intercept-intro	 {
+	margin-bottom: 100px;
+}
+
+.pulseband-research-text,
+.pulseband-synthesis-text,
+.pulseband-ideate-text,
+.pulseband-prototest-text {
+	margin-top: 25px;
+}
+
+.intercept-learn .container-fluid,
+.intercept-synthesize .container-fluid,
+.intercept-ideate .container-fluid,
+.intercept-prototest .container-fluid {
+	background-color: #304F6B;
+	padding-bottom: 25px;
+}
+
+section.intercept-learn,
+section.intercept-synthesize,
+section.intercept-ideate {
+	margin-bottom: 100px;
+}
+
+.intercept-ideate .btn-lg {
+	display: block;
+	margin: 15px auto;
+	width: 300px;
+	background-color: #5C4675;
+	color: #fff;
+}
+
+.intercept-ideate .btn-lg:hover {
+	background-color: #fff;
+	color: #5C4675;
+	border: solid 2px #5C4675;
+}
+
+.intercept-prototest .btn {
+	width: 200px;
+	background-color: #5C4675;
+	color: #fff;
+}
+
+.intercept-prototest .btn:hover {
+	background-color: #fff;
+	color: #5C4675;
+	border: solid 2px #5C4675;
+}
+
+.intercept-prototest .mid-fi {
+	display: block;
+	margin: 15px auto;
+}
+
+.intercept-prototest .contact {
+	display: block;
+	margin: 15px auto;
+	background-color: #2FBF71;
+}
+
+.intercept-prototest .contact:hover {
+	background-color: #fff;
+	color: #2FBF71;
+	border: solid 2px #2FBF71;
+}
+
+.intercept-prototest .next {
+	visibility: hidden;
+}
+
+.intercept-prototest .next,
+.intercept-prototest .prev {
+	width: 150px;
+}
+
+section.intercept-prototest {
+	margin-bottom: 50px
+}
+
+.img-is-new-task {
+	max-width: 200px;
+}
 
 
 
