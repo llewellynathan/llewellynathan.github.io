@@ -749,6 +749,10 @@ section.intercept-prototest {
 	.navbar-default .navbar-brand {
 		font-size: 1.5em;
 	}
+
+	.contact a {
+		width: 200px;
+	}
 }
 
 
