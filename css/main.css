@@ -126,6 +126,11 @@ header .intro-text .skills {
 	color: #fff;
 }
 
+
+/********************************
+		My Process
+*********************************/
+
 .my-process {
 	background-color: #4a4a4a;
 	padding: 100px 0 100px 0;
@@ -278,23 +283,38 @@ header .intro-text .skills {
 		Contact Me
 *********************************/
 
-section.contact {
-	margin-bottom: 100px;
+section.contact-me {
+	padding-bottom: 100px;
+	background-color: #4a4a4a;
 }
-.contact h2 {
-	color: #FF5335;
+.contact-me h2 {
+	color: #fff;
 	text-align: center;
 	margin-top: 50px;
 }	
 
-.contact p {
+.contact-me p {
 	text-align: left;
 	margin: 0 20px 25px 10px;
+	color: #fff;
 }
 
-.contact a {
+.contact-me a {
 	min-width: 250px;
 }
+
+.contact-me a:hover {
+	color: #4a4a4a;
+}
+
+.contact-me .btn-outline:hover {
+	border: none;
+}
+
+
+/********************************
+		Footer
+*********************************/
 
 .footer {
 	background-color: #171513;
