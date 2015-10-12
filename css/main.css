@@ -127,21 +127,16 @@ header .intro-text .skills {
 }
 
 .my-process {
-	background-color: #898989;
+	background-color: #4a4a4a;
 	padding: 100px 0 100px 0;
 }
 
-.my-process h2,
-.work h2 {
+.my-process h2 {
 	font-size: 3.5em;
 	font-family: 'Rokkitt', sans-serif;
 	color: #fff;
 	text-align: center;
 	margin-bottom: 30px;
-}
-
-.work h3 {
-	color: #fff;
 }
 
 .my-process p{
@@ -161,38 +156,6 @@ header .intro-text .skills {
 .my-process .learn-more .btn-sm:hover {
 	color: #898989;
 }
-.work-head {
-	background-color: #313641;
-	padding-top: 50px;
-}
-
-.work .pulseband,
-.work .intercept,
-.work .ideal,
-.work .more-coming {
-	min-height: 425px;
-	padding: 50px 0;
-}
-
-.work .intercept,
-.work .more-coming {
-	min-height: 500px;
-}
-
-.work .pulseband h3,
-.work .ideal h3,
-.work .intercept h3,
-.work .more-coming h3 {
-	text-align: center;
-	font-size: 1.75em;
-}
-
-.work p {
-	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
-	color: #fff;
-	margin: 0 20px 10px 20px;
-}
 
 .learn-more .btn-sm {
 	display: block;
@@ -209,49 +172,111 @@ header .intro-text .skills {
 	text-decoration: none;
 }
 
-.pulseband {
-	background-color: #01295F;
-}
-.pulseband .learn-more .btn-sm:hover {
-	color: #01295F;
-}
-
-.work .ideal {
-	background-color: #2CA58D;
-}
-.ideal .learn-more .btn-sm:hover {
-	color: #2CA58D;
+/********************************
+		My Work
+*********************************/
+.work-head {
+	padding-top: 50px;
 }
 
-.work .intercept {
-	background-color: #304F6B;
-}
-.intercept .learn-more .btn-sm:hover {
-	color: #304F6B;
-}
-
-.work .more-coming {
-	background-color: #313641;
+.work h2 {
+	text-align: center;
+	font-family: 'Rokkitt', sans-serif;
+	font-size: 3.5em;
+	color: #171513;
 }
 
-.work .more-coming .btn-sm:hover {
-	color: #313641;
-}
-
-.work .intercept img,
-.work .more-coming img {
-	display: block;
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
 	margin: 0 auto;
-}
-.intercept .learn-more {
-	display: block;
-	margin: 0 auto;
+	list-style: none;
+	text-align: center;
 }
 
-.work .intercept img,
-.work .more-coming img {
-	vertical-align: middle;
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
 }
+
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #4a4a4a;
+	color: #FF5335;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+/*.grid figcaption span:before {
+	content: 'by ';
+}*/
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #FF5335;
+	color: #fff;
+}
+
+/* Caption Style 6 */
+.cs-style-6 figure img {
+	z-index: 10;
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.no-touch .cs-style-6 figure:hover img,
+.cs-style-6 figure.cs-hover img {
+	-webkit-transform: translateY(-50px) scale(0.5);
+	-moz-transform: translateY(-50px) scale(0.5);
+	-ms-transform: translateY(-50px) scale(0.5);
+	transform: translateY(-50px) scale(0.5);
+}
+
+.cs-style-6 figcaption {
+	height: 100%;
+	width: 100%;
+}
+
+.cs-style-6 figcaption h3 {
+	margin-top: 60%;
+}
+
+.cs-style-6 figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+/********************************
+		Contact Me
+*********************************/
 
 section.contact {
 	margin-bottom: 100px;
@@ -752,7 +777,7 @@ section.intercept-prototest {
 		  Media Queries
 *********************************/
 
-@media (max-width: 450px) {
+@media screen and (max-width: 450px) {
 	.navbar-default .navbar-brand {
 		font-size: 1.5em;
 	}
@@ -766,7 +791,28 @@ section.intercept-prototest {
 	.ideal-student-intro h1 {
 		font-size: 3em;
 	}
+
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+
+	.cs-style-6 figcaption h3 {
+		font-size: 1.15em;
+	}
+
+	.cs-style-6 figcaption span {
+		font-size: 1em;
+	}
+
+	.grid figcaption a {
+		font-size: .8em
+	}
 }
+
 
 
 
