@@ -308,7 +308,7 @@ section.contact-me {
 }
 
 .contact-me .btn-outline:hover {
-	border: none;
+	border: solid 2px #4a4a4a;
 }
 
 
