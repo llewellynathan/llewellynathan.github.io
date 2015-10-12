@@ -115,6 +115,7 @@ header .intro-text .skills {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.25em;
 	color: #2FBF71;
+	min-width: 250px;
 }
 
 .btn-outline {
