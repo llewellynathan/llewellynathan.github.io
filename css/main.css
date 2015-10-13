@@ -1,7 +1,26 @@
 body {
-	font-size: 18px;
+	font-size: 16px;
 }
 
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.25em;
+}
+
+h3 {
+	font-size: 1.75em;
+}
+
+h4 {
+	font-size: 1.125em;
+}
+
+.btn-lg {
+	font-size: 1em;
+}
 .navbar-fixed-top {
 	padding: 20px 0;
 }
@@ -68,22 +87,22 @@ header img {
 
 header .intro-text .for-hire {
 	display: block;
-	font-size: 4em;
+	font-size: 3em;
 	font-family: 'Rokkitt', sans-serif;
 	color: #2FBF71;
 	line-height: 48px;
-	margin-top: 20px;
 }
 
 header .intro-text .nathan, header .intro-text .skills{
 	display: block;
+	margin-top: 20px;
 	font-size: 3em;
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
 }
 
 header .intro-text .skills {
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 .self-pic {
@@ -97,7 +116,7 @@ header .intro-text .skills {
 .about h2 {
 	text-align: center;
 	font-family: 'Rokkitt', sans-serif;
-	font-size: 3.5em;
+	font-size: 2.25em;
 	color: #171513;
 }
 
@@ -113,7 +132,7 @@ header .intro-text .skills {
 
 .contact a {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.25em;
+	font-size: 1em;
 	color: #2FBF71;
 	min-width: 250px;
 }
@@ -138,7 +157,7 @@ header .intro-text .skills {
 }
 
 .my-process h2 {
-	font-size: 3.5em;
+	font-size: 2.25em;
 	font-family: 'Rokkitt', sans-serif;
 	color: #fff;
 	text-align: center;
@@ -188,7 +207,7 @@ header .intro-text .skills {
 .work h2 {
 	text-align: center;
 	font-family: 'Rokkitt', sans-serif;
-	font-size: 3.5em;
+	font-size: 2.25em;
 	color: #171513;
 }
 
@@ -292,6 +311,7 @@ section.contact-me {
 	color: #fff;
 	text-align: center;
 	margin-top: 100px;
+	font-size: 2.25em;
 }	
 
 .contact-me p {
@@ -506,6 +526,7 @@ section.ideate {
 	width: 200px;
 	background-color: #5C4675;
 	color: #fff;
+	border: solid 2px #fff;
 }
 
 .prototest .btn:hover {
@@ -523,6 +544,7 @@ section.ideate {
 	display: block;
 	margin: 15px auto;
 	background-color: #2FBF71;
+	border: solid 2px #fff;
 }
 
 .prototest .contact:hover {
@@ -579,7 +601,7 @@ h4 {
 
 .ideal-student-intro h1 {
 	text-align: center;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .ideal-student-intro	 {
@@ -625,6 +647,7 @@ section.ideal-student-ideate {
 	width: 200px;
 	background-color: #5C4675;
 	color: #fff;
+	border: solid 2px #fff;
 }
 
 .ideal-student-prototest .btn:hover {
@@ -642,6 +665,7 @@ section.ideal-student-ideate {
 	display: block;
 	margin: 15px auto;
 	background-color: #2FBF71;
+	border: solid 2px #fff;
 }
 
 .ideal-student-prototest .contact:hover {
@@ -657,6 +681,16 @@ section.ideal-student-ideate {
 .ideal-student-prototest .next,
 .ideal-student-prototest .prev {
 	width: 150px;
+}
+
+.prev-button {
+	display: inline;
+	float: left; 
+}
+
+.next-button {
+	display: inline;
+	float: right;
 }
 
 section.ideal-student-prototest {
@@ -706,7 +740,7 @@ h4 {
 
 .intercept-intro h1 {
 	text-align: center;
-	font-size: 4em;
+	font-size: 3em;
 }
 
 .intercept-intro	 {
@@ -810,7 +844,7 @@ section.intercept-prototest {
 	.pulseband-intro h1,
 	.intercept-intro h1,
 	.ideal-student-intro h1 {
-		font-size: 3em;
+		font-size: 2em;
 	}
 
 	.grid {
