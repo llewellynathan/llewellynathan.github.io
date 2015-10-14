@@ -65,6 +65,10 @@ header {
 	text-align: center;
 }
 
+.main-header {
+	height: 100vh;
+}
+
 .img-responsive {
 	display: block;
 	max-width: 100%;
@@ -83,6 +87,12 @@ header img {
 
 .down-arrow{
 	margin: 50px auto 0;
+}
+
+.vert-center {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 header .intro-text .for-hire {
