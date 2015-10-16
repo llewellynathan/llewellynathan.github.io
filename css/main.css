@@ -847,12 +847,17 @@ section.intercept-prototest {
 		font-size: 1.5em;
 	}
 	
-	.main-header h1{
+	header .intro-text .nathan{
 		font-size: 2em;
 	}
 
-	.main-header h2 {
-		font-size: 1.5em;
+	header .intro-text .for-hire {
+		font-size: 1.75em;
+		line-height: 24px;
+	}
+
+	header .intro-text .skills {
+		font-size: 1em;
 	}
 
 	.contact a {
