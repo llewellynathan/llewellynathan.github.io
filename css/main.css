@@ -846,6 +846,14 @@ section.intercept-prototest {
 	.navbar-default .navbar-brand {
 		font-size: 1.5em;
 	}
+	
+	.main-header h1{
+		font-size: 2em;
+	}
+
+	.main-header h2 {
+		font-size: 1.5em;
+	}
 
 	.contact a {
 		width: 200px;
