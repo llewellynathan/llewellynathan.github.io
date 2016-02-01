@@ -465,6 +465,10 @@ section.contact-me {
 /********************************
 			Pulseband
 *********************************/
+.rule {
+	border-bottom: 2px solid #FF5335;
+	margin-bottom: 100px;
+}
 h1,
 h2,
 h3,
@@ -473,7 +477,7 @@ h4 {
 }
 
 .pulseband-header {
-	background: #01295F;
+	background: #666;
 }
 
 .pulseband-header img{
@@ -495,7 +499,13 @@ h4 {
 .ideate h2,
 .prototest h2 {
 	text-align: center;
-	color: #fff;
+	color: #171513;
+}
+
+.synthesize h3,
+.ideate h3,
+.prototest h3 {
+	margin-top: 60px; 
 }
 
 .pulseband-intro h1 {
