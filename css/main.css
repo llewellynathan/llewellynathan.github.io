@@ -466,7 +466,7 @@ section.contact-me {
 			Pulseband
 *********************************/
 .rule {
-	border-bottom: 2px solid #FF5335;
+	border-bottom: 3px solid #FF5335;
 	margin-bottom: 100px;
 }
 h1,
@@ -502,12 +502,6 @@ h4 {
 	color: #171513;
 }
 
-.synthesize h3,
-.ideate h3,
-.prototest h3 {
-	margin-top: 60px; 
-}
-
 .pulseband-intro h1 {
 	text-align: center;
 	font-size: 4em;
@@ -515,6 +509,10 @@ h4 {
 
 .pulseband-intro {
 	margin-bottom: 100px;
+}
+
+.bottom-space {
+	margin-bottom: 60px;
 }
 
 .pulseband-research-text,
@@ -555,10 +553,11 @@ section.ideate {
 	border: solid 2px #5C4675;
 }
 
-/*.prototest .mid-fi {
+.pulse-prototype,
+.see-pulse {
 	display: block;
-	margin: 15px auto;
-}*/
+	margin: 40px auto 10px;
+}
 
 .prototest .contact {
 	display: block;
@@ -579,11 +578,15 @@ section.ideate {
 
 .prototest .next,
 .prototest .prev {
-	width: 150px;
+	width: 125px;
 }
 
 section.prototest {
 	margin-bottom: 50px
+}
+
+.see-pulse a{
+	text-align: center;
 }
 
 /********************************
@@ -664,7 +667,7 @@ section.ideal-student-ideate {
 }
 
 .ideal-student-prototest .btn {
-	width: 200px;
+	width: 262px;
 	background-color: #5C4675;
 	color: #fff;
 	border: solid 2px #fff;
@@ -700,18 +703,9 @@ section.ideal-student-ideate {
 
 .ideal-student-prototest .next,
 .ideal-student-prototest .prev {
-	width: 150px;
+	width: 125px;
 }
 
-.prev-button {
-	display: inline;
-	float: left; 
-}
-
-.next-button {
-	display: inline;
-	float: right;
-}
 
 section.ideal-student-prototest {
 	margin-bottom: 50px
