@@ -162,7 +162,7 @@ header .intro-text .skills {
 *********************************/
 
 .my-process {
-	background-color: #2A3648;
+	background-color: #3E4349;
 	padding: 100px 0 100px 0;
 }
 
@@ -315,7 +315,7 @@ header .intro-text .skills {
 
 section.contact-me {
 	padding-bottom: 100px;
-	background-color: #2A3648;
+	background-color: #3E4349;
 }
 .contact-me h2 {
 	color: #fff;
@@ -335,11 +335,11 @@ section.contact-me {
 }
 
 .contact-me a:hover {
-	color: #4a4a4a;
+	color: #3E4349;
 }
 
 .contact-me .btn-outline:hover {
-	border: solid 2px #4a4a4a;
+	border: solid 2px #3E4349;
 }
 
 
@@ -542,15 +542,28 @@ section.ideate {
 
 .prototest .btn {
 	width: 200px;
-	background-color: #5C4675;
-	color: #fff;
-	border: solid 2px #fff;
+	background-color: #fff;
+	color: #2FBF71;
+	border: solid 2px #2FBF71;
 }
 
 .prototest .btn:hover {
 	background-color: #fff;
-	color: #5C4675;
-	border: solid 2px #5C4675;
+	color: #1B8B4E;
+	border: solid 2px #1B8B4E;
+}
+
+.prototest .contact .btn {
+	width: 200px;
+	background-color: #2FBF71;
+	color: #fff;
+	border: solid 2px #2FBF71;
+}
+
+.prototest .contact .btn:hover {
+	background-color: #fff;
+	color: #1B8B4E;
+	border: solid 2px #1B8B4E;
 }
 
 .pulse-prototype,
@@ -562,14 +575,15 @@ section.ideate {
 .prototest .contact {
 	display: block;
 	margin: 15px auto;
+	color: #fff;
 	background-color: #2FBF71;
-	border: solid 2px #fff;
+	border: solid 2px #2FBF71;
 }
 
 .prototest .contact:hover {
-	background-color: #fff;
-	color: #2FBF71;
-	border: solid 2px #2FBF71;
+	background-color: #1B8B4E;
+	color: #fff;
+	border: solid 2px #1B8B4E;
 }
 
 .prototest .prev {
@@ -656,27 +670,28 @@ section.ideal-student-ideate {
 	display: block;
 	margin: 15px auto;
 	width: 300px;
-	background-color: #5C4675;
-	color: #fff;
+	background-color: #fff;
+	color: #2FBF71;
+	border: solid 2px #2FBF71;
 }
 
 .ideal-student-ideate .btn-lg:hover {
 	background-color: #fff;
-	color: #5C4675;
-	border: solid 2px #5C4675;
+	color: #1B8B4E;
+	border: solid 2px #1B8B4E;
 }
 
 .ideal-student-prototest .btn {
 	width: 262px;
-	background-color: #5C4675;
-	color: #fff;
-	border: solid 2px #fff;
+	background-color: #fff;
+	color: #2FBF71;
+	border: solid 2px #2FBF71;
 }
 
 .ideal-student-prototest .btn:hover {
 	background-color: #fff;
-	color: #5C4675;
-	border: solid 2px #5C4675;
+	color: #1B8B4E;
+	border: solid 2px #1B8B4E;
 }
 
 .ideal-student-prototest .mid-fi {
@@ -688,13 +703,14 @@ section.ideal-student-ideate {
 	display: block;
 	margin: 15px auto;
 	background-color: #2FBF71;
-	border: solid 2px #fff;
+	border: solid 2px #2FBF71;
+	color: #fff;
 }
 
 .ideal-student-prototest .contact:hover {
-	background-color: #fff;
-	color: #2FBF71;
-	border: solid 2px #2FBF71;
+	background-color: #1B8B4E;
+	color: #fff;
+	border: solid 2px #1B8B4E;
 }
 
 .ideal-student-prototest .prev {
@@ -782,30 +798,18 @@ section.intercept-ideate {
 	margin-bottom: 100px;
 }
 
-.intercept-ideate .btn-lg {
-	display: block;
-	margin: 15px auto;
-	width: 300px;
-	background-color: #5C4675;
-	color: #fff;
-}
-
-.intercept-ideate .btn-lg:hover {
-	background-color: #fff;
-	color: #5C4675;
-	border: solid 2px #5C4675;
-}
 
 .intercept-prototest .btn {
 	width: 200px;
-	background-color: #5C4675;
-	color: #fff;
+	background-color: #fff;
+	color: #2FBF71;
+	border: solid 2px #2FBF71;
 }
 
 .intercept-prototest .btn:hover {
 	background-color: #fff;
-	color: #5C4675;
-	border: solid 2px #5C4675;
+	color: #1B8B4E;
+	border: solid 2px #1B8B4E;
 }
 
 .intercept-prototest .mid-fi {
@@ -817,12 +821,14 @@ section.intercept-ideate {
 	display: block;
 	margin: 15px auto;
 	background-color: #2FBF71;
+	color: #fff;
+	border: solid 2px #2FBF71;
 }
 
 .intercept-prototest .contact:hover {
-	background-color: #fff;
-	color: #2FBF71;
-	border: solid 2px #2FBF71;
+	background-color: #1B8B4E;
+	color: #fff;
+	border: solid 2px #1B8B4E;
 }
 
 .intercept-prototest .next {
