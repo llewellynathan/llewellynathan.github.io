@@ -384,7 +384,7 @@ section.contact-me {
 	margin-top: 25px;
 }
 
-.process-learn img,
+/*.process-learn img,
 .process-synthesize img,
 .process-ideate img,
 .process-prototype img,
@@ -392,7 +392,7 @@ section.contact-me {
 .process-iterate img,
 .process-prototest img {
 	margin-top: 50px;
-}
+}*/
 
 .process-learn h2,
 .process-synthesize h2,
@@ -402,7 +402,7 @@ section.contact-me {
 .process-iterate h2,
 .process-prototest h2 {
 	text-align: center;
-	color: #fff;
+	color: #171513;
 }
 
 .process-learn h3,
@@ -422,7 +422,7 @@ section.contact-me {
 .process-iterate .iterate-text {
 	background-color: #fff;
 	padding: 25px 100px;
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	margin-bottom: 50px;
 }
 
@@ -447,12 +447,12 @@ section.contact-me {
 	margin: 25px 20px 0px 20px;
 }
 
-.process-learn .container-fluid,
+/*.process-learn .container-fluid,
 .process-prototype .container-fluid {
 	background-color: #FF9C35;
-}
+}*/
 
-.process-synthesize .container-fluid,
+/*.process-synthesize .container-fluid,
 .process-test .container-fluid {
 	background-color: #5C4675;
 }
@@ -460,7 +460,7 @@ section.contact-me {
 .process-ideate .container-fluid,
 .process-iterate .container-fluid {
 	background-color: #31ECA3;
-}
+}*/
 
 /********************************
 			Pulseband
@@ -619,7 +619,7 @@ h4 {
 .ideal-student-ideate h2,
 .ideal-student-prototest h2 {
 	text-align: center;
-	color: #fff;
+	color: #171513;
 }
 
 .ideal-student-intro h1 {
@@ -749,7 +749,7 @@ h4 {
 .intercept-ideate h2,
 .intercept-prototest h2 {
 	text-align: center;
-	color: #fff;
+	color: #171513;
 }
 
 .intercept-intro h1 {
