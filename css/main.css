@@ -151,9 +151,22 @@ header .intro-text .skills {
 	border: solid 2px #2FBF71;
 }
 
-.btn-outline:hover, .btn-outline a:hover {
+.btn-outline a:hover {
+	background: #fff;
+	color: #1B8B4E;
+	border: solid 2px #1B8B4E;
+}
+
+.contact-me .btn-outline {
 	background: #2FBF71;
-	color: #fff;
+	color: #3E4349;
+	border: solid 2px #2FBF71;
+}
+
+.contact-me .btn-outline:hover {
+	background: #1B8B4E;
+	color: #3E4349;
+	border: solid 2px #1B8B4E;
 }
 
 
