@@ -143,7 +143,7 @@ header .intro-text .skills {
 .contact a {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
-	color: #2FBF71;
+	color: #ffffff;
 	min-width: 250px;
 }
 
@@ -157,15 +157,15 @@ header .intro-text .skills {
 	border: solid 2px #1B8B4E;
 }
 
-.contact-me .btn-outline {
+.contact .btn-outline {
 	background: #2FBF71;
-	color: #3E4349;
+	color: #ffffff;
 	border: solid 2px #2FBF71;
 }
 
-.contact-me .btn-outline:hover {
+.contact .btn-outline:hover {
 	background: #1B8B4E;
-	color: #3E4349;
+	color: #ffffff;
 	border: solid 2px #1B8B4E;
 }
 
