@@ -1,350 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Nate Does UX</title>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700,500' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/modernizr.custom.js"></script>
-    <!-- Animate Javascript -->
-    <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design & Build with AI</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Fredoka', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            color: #1a1a1a;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 6vw, 4rem);
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: clamp(1rem, 2.5vw, 1.5rem);
+            font-weight: 400;
+            color: #888888;
+        }
+    </style>
 </head>
-<body id='page-top' class='index'>
-	<nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Nate Does UX</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About me</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#process">My process</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#my-work">My work</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact me</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-    <header class='main-header'>
-    	<div class="container">
-    		<div class="row">
-    			<div class=".vert-center col-lg-12">
-    				<img class='img-responsive' src="img/logo-v2-1x.png" alt="">
-    				<div class='intro-text'>
-                        <h1 class='nathan',>Nathan Llewellyn</h1>
-    					<h2 class='for-hire'>User Advocate, Always</h2>
-    					<span class='skills'> UX - IxD - JTBD</span>
-    				</div>
-                    <div class="page-scroll wow bounceInUp" data-wow-delay=".5s">
-    					<a href="#about"><img class='img-responsive, down-arrow' src="img/down-arrow.png" alt=""></a>
-    				</div>
-                </div>
-    		</div>
-    	</div>
-    </header>
-
-    <section class='about' id='about'>
-    	<div class='container'>
-    		<div class='row self-pic'>
-    			<div class='col-md-4 col-md-offset-1'>
-    				<img class='img-responsive' src="img/Nate-Pic.png" alt="">
-    			</div>
-    			<div class='col-md-7'>
-    				<h2>About me</h2>
-    				<p>Born and raised in the shadows of the  everlasting hills I’m fueled by peanut butter, good tunes, and a love for making and creating. I’m first and always an advocate for the user, the people my product serves. I learn by observation and conversation. I gather people’s stories to inspire my work. I’m mindful of the big picture and I stress about each pixel. I simplify the complex, make the mundane beautiful, and the tedious enjoyable. By balancing the needs of users, the requirements of business, and the capabilities of technology I create innovative solutions, products, and experiences.  </p>
-					<div class='contact'>
-						<a href="#contact" class='page-scroll btn btn-lg btn-outline'>Contact me</a>
-					</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-    <section class='my-process' id='process'>
-    	<div class='container'>
-    		<div class='row'>
-    			<h2>My process</h2>
-    		</div>
-    		<div class='row'>
-    			<div class='col-md-6 col-md-offset-3'>
-    				<p class='process-text'>I follow a version of the double diamond design process. While it is described here and in my case studies in a linear form it often involves returning to a previous step to iterate, expound, or try something completely new.</p>
-    			</div>
-    		</div>
-    		<div class='row'>
-    			<a href="process.html#learn">
-	    			<div class='col-xs-6 col-xs-offset-3 col-md-2 col-md-offset-0'>
-	    				<img class='img-responsive' src="img/learn-icon-labeled.png" alt="">
-	    			</div>
-                </a>
-                <a href="process.html#synthesize">
-	    			<div class='col-xs-6 col-xs-offset-3 col-md-2 col-md-offset-0'>
-	    				<img class='img-responsive' src="img/synthesize-icon-labeled.png" alt="">
-	    			</div>
-                </a>
-                <a href="process.html#ideate">
-	    			<div class='col-xs-6 col-xs-offset-3 col-md-2 col-md-offset-0'>
-	    				<img class='img-responsive' src="img/ideate-icon-labeled.png" alt="">
-	    			</div>
-                </a>
-                <a href="process.html#prototype">
-	    			<div class='col-xs-6 col-xs-offset-3 col-md-2 col-md-offset-0'>
-	    				<img class='img-responsive' src="img/prototype-icon-labeled.png" alt="">
-	    			</div>
-                </a>
-                <a href="process.html#test">
-	    			<div class='col-xs-6 col-xs-offset-3 col-md-2 col-md-offset-0'>
-	    				<img class='img-responsive' src="img/test-icon-labeled.png" alt="">
-	    			</div>
-                </a>
-                <a href="process.html#iterate"
-	    			<div class='col-xs-6 col-xs-offset-3 col-md-2 col-md-offset-0'>
-	    				<img class='img-responsive' src="img/iterate-icon-labeled.png" alt="">
-	    			</div>
-    			</a>
-    		</div>
-    		<div class='row'>
-    			<div class='learn-more'>
-					<a href="process.html" class='btn-sm btn-outline'>Learn more</a>
-				</div>
-    		</div>
-    	</div>
-    </section>
-
-    <section class='work' id='my-work'>
-    	<div class='container-fluid'>
-    		<div class='work-head row'>
-    			<div class='col-md-12'>
-    				<h2>My work</h2>
-    			</div>
-    		</div>
-    		<!-- <div class='row'>
-    			<div class='pulseband col-md-6'>
-    				<div class='vcenter row'>
-	    				<div class='col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-1 col-lg-3'>
-	    					<img class='img-responsive' src="img/pulseband-iphone.png" alt="">
-	    				</div>
-	    				<div class='col-xs-12 col-md-7'>
-	    					<h3>Pulse Band</h3>
-	    					<p>Pulse Band is a conceptual fitness wearable that tracks steps, sleep, heart rate, blood pressure, and other vitals. The device is specifically targeted towards those who are at risk of or have certain heart conditions such as high blood pressure.</p>
-	    					<div class='learn-more'>
-								<a href="pulseband.html" class='btn-sm btn-outline'>Learn More</a>
-							</div>
-	    				</div>
-    				</div>
-    			</div>
-                <div class='ideal col-md-6'>
-                    <div class='vcenter row'>
-                        <div class='col-xs-4 col-xs-offset-4 col-md-4 col-md-offset-1 col-lg-3'>
-                            <img class='img-responsive' src="img/ideal-student-iphone.png" alt="">
-                        </div>
-                        <div class='col-xs-12 col-md-7'>
-                            <h3>Ideal Student</h3>
-                            <p>Ideal Student is an app made by Insightful Decisions, a startup focused on helping students plan their pathway through high school along with college preparation tasks and extracurricular activities.</p>
-                            <div class='learn-more'>
-                                <a href="idealstudent.html" class='btn-sm btn-outline'>Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>	
-    		</div>
-			<div class='row'>
-    			<div class='intercept col-md-6'>
-                    <div class='row'>
-                        <div class='center-block'>
-                            <img class='img-responsive' src="img/intercept-macbook-1x.png" alt="">
-                        </div>
-                    </div>
-                    <div class='row'>               
-                        <div class='col-xs-12 col-md-10 col-md-offset-1'>
-                            <h3>Intercept Startup</h3>
-                            <p>Intercept Startup, by Deziner Software, is a cloud based software platform “powerful enough for venture capital, made for entrepreneurs” to build a business plan, understand finances, and get funded.</p>
-                            <div class='learn-more'>
-                                <a href="intercept.html" class='btn-sm btn-outline'>Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-    			<div class='more-coming col-md-6'>
-    				<div class='row'>
-	    				<div class='center-block'>
-	    					<img class='img-responsive' src="img/more-coming.png" alt="">
-	    				</div>
-	    			</div>	
-	    			<div class='row'>	
-	    				<div class='col-xs-12 col-md-10 col-md-offset-1'>
-	    					<h3>More to Come</h3>
-	    					<p>I’ll be posting more projects soon. Please check back in a few weeks for more! If you have a project you need help with or even a project suggestion for me to do feel free to contact me!</p>
-                            <div class='learn-more'>
-                                <a href="#contact" class='btn-sm btn-outline'>Contact Me</a>
-                            </div>
-	    				</div>	
-    				</div>
-    			</div>	
-    		</div>  -->   
-    	</div>
-        <div class='container'>
-            <ul class="grid cs-style-6">
-                <li class='wow fadeInLeft'>
-                    <figure class=>
-                        <img class='img-responsive' src="img/my-work-pulseband.png" alt="img01">
-                        <figcaption>
-                            <h3>Pulseband</h3>
-                            <span>UX - IxD</span>
-                            <a href="pulseband.html">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class='wow fadeInRight'>
-                    <figure>
-                        <img src="img/my-work-is.png" alt="img03">
-                        <figcaption>
-                            <h3>Ideal student</h3>
-                            <span>UX - IxD</span>
-                            <a href="idealstudent.html">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class='wow fadeInLeft'>
-                    <figure>
-                        <img src="img/my-work-intercept.png" alt="img04">
-                        <figcaption>
-                            <h3>Intercept startup</h3>
-                            <span>UX</span>
-                            <a href="intercept.html">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li class='wow fadeInRight'>
-                    <figure>
-                        <img src="img/my-work-more-coming.png" alt="img02">
-                        <figcaption>
-                            <h3>UI Design</h3>
-                            <span>Check back often for more!</span>
-                            <a href="https://share.sketch.cloud/baK4/p/final" target="_blank">Take a look</a>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section class='contact-me' id='contact'>
-    	<div class='container-fluid'>
-    		<div class='row'>
-    			<div>
-    				<h2>Contact me</h2>
-    			</div>
-    		</div>
-    		<div class='row'>
-    			<div class='col-md-offset-3 col-md-6'>
-    				<!-- <p>Ever since I was a kid I always had an appreciation for beautifully created things and a strong desire to create beautiful things. I admired great designers, craftsmen, musicians, and artists. Although I had a deep appreciation for these things and people I speak of I never knew where to fit in. I drew a lot, but being an artist never seemed right. I built with K'nex and LEGOs but being a builder didn't seem right either. I thought about becoming a graphic designer and photographer but, again, it didn't seem like the right thing for me. So many creative careers and none that I felt were right, none until I discovered user experience and interaction design.</p>
-    				<p>Finally! Finally I found, unlike U2 who still hasn't found what they are looking for, the career for me. A combination of technology AND design AND meaningful work all rolled into one. </p>
-    				<p>So, here I am, a new designer looking for my first design job and hoping to find a place to call "work" in the fondest, most awesome way possible.</p> -->
-    				<p>Whether you have a simple app that needs a little help or you’re looking for a designer to join your team, I’m currently looking for a opportunitites to stretch my UX skills and would love to speak with you about your needs. Please contact me using your favorite method below!</p>
-    			</div>
-    		</div>
-    		<div class='row'>
-    			<div class='col-md-offset-3 col-md-6'>
-    				<div class='contact'>
-						<a href="mailto:llewellynathan@gmail.com" class='btn btn-lg btn-outline' target='_blank'><i class="fa fa-envelope"></i>  Email me</a>
-					</div>
-    			</div>
-    		</div>
-    		<div class='row'>
-    			<div class='col-md-offset-3 col-md-6'>
-    				<div class='contact'>
-						<a href="tel:1-385-248-1088" class='btn btn-lg btn-outline' target='_blank'><i class="fa fa-mobile"></i>  Call me</a>
-					</div>
-    			</div>
-    		</div>
-    		<div class='row'>
-    			<div class='col-md-offset-3 col-md-6'>
-    				<div class='contact'>
-						<a href="img/nathan-llewellyn-resume.pdf" class='btn btn-lg btn-outline' target='_blank'><i class="fa fa-file-text"></i>  See my resume</a>
-					</div>
-    			</div>
-    		</div>
-    		<div class='row'>
-    			<div class='col-md-offset-3 col-md-6'>
-    				<div class='contact'>
-						<a href="https://www.linkedin.com/in/nathanllewellyn" class='btn btn-lg btn-outline' target='_blank'><i class="fa fa-linkedin-square"></i>  Connect with me</a>
-					</div>
-    			</div>
-    		</div>
-    		<div class='row'>
-    			<div class='col-md-offset-3 col-md-6'>
-    				<div class='contact'>
-						<a href="https://twitter.com/natedoesUX" class='btn btn-lg btn-outline' target='_blank'><i class="fa fa-twitter-square"></i>  Follow me</a>
-					</div>
-    			</div>
-    		</div>
-
-    		
-    </section>
-    <footer class='footer'>
-    	<div class='container-fluid'>
-    		<div class='row'>
-    			<div class='col-md-4'>
-    				<p>Copyright Nathan Llewellyn 2015</p>
-    			</div>
-    		</div>
-    	</div>
-    </footer>
-	
-
-	<!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
-    <script src="js/toucheffects.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
-
-    
-
+<body>
+    <main>
+        <h1>Design &amp; Build with AI</h1>
+        <p>Coming soon</p>
+    </main>
 </body>
 </html>
